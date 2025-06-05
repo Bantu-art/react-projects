@@ -4,10 +4,12 @@ import './index.css'
 import App from './App.jsx'
 import Counter from './components/Counter.jsx'
 import Navbar from './components/Navbar.jsx'
+import Footer from './components/Footer.jsx'
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
     <Navbar />
     <Counter />
+    <Footer />
   </StrictMode>,
 )
